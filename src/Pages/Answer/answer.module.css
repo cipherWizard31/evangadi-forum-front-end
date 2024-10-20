@@ -1,0 +1,96 @@
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+.outerContainer {
+  margin: 5% auto;
+  width: 65%;
+}
+
+.icon {
+  color: #4285f4;
+  margin-right: 8px;
+  text-align: center;
+  font-size: 20px;
+}
+.icon_container {
+  display: flex;
+  align-items: center;
+}
+
+.outerContainer button {
+  margin-top: 1%;
+  background-color: #007bff;
+  padding: 8px 50px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.titleSpan {
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+.outerContainer p {
+  margin-left: 35px;
+}
+.outerContainer textarea {
+  max-width: 100% !important;
+    width: 96%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+  padding: 2%;
+  outline: none;
+}
+.textarea::placeholder {
+  color: #999;
+  font-style: italic;
+  
+}
+.textarea:focus {
+  border-color: #ff8500;
+  box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+}
+.answerBorder {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1% 0;
+}
+.outerContainer h2 {
+  font-weight: lighter;
+}
+.topAnswer {
+  text-align: center;
+  padding-top: 2%;
+}
+.outerContainer form {
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+}
+.outerContainer form div {
+  width: 94%;
+  margin: 2% auto;
+}
+.goToQuestion {
+  margin: 2%;
+  text-align: center;
+  font-size: 15px;
+}
+.outerContainer a {
+  text-decoration: none;
+  color:#007bff;
+}
+@media (max-width: 768px) {
+  .line {
+    width: 35%;
+    height: 2px;
+    background-color: orange;
+    margin-left: 25px;
+  }
+  .outerContainer h2 {
+    font-size: medium;
+  }
+}

@@ -1,0 +1,158 @@
+.signup_container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup_container h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.signup_container p {
+  font-size: 0.9rem;
+  color: #7a7a7a;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.signup_container p a {
+  color: #ff6600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup_container p a:hover {
+  text-decoration: underline;
+}
+form {
+  width: 100%;
+  margin: 0;
+  border: 0;
+}
+.input_group input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.input_group input:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Group for first and last name */
+.name_group {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.name_group input {
+  width: 100%;
+}
+
+.password_group {
+  position: relative;
+}
+
+.password_group input {
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
+  padding-right: 2.5rem;
+}
+
+.password_toggle {
+  position: absolute;
+  right: 0.75rem;
+  top: 44%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.password_toggle:hover {
+  color: #333;
+}
+
+.checkbox_group {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.checkbox_group input {
+  width: 10%;
+}
+
+.checkbox_group label {
+  font-size: 0.85rem;
+  color: #7a7a7a;
+}
+
+.checkbox_group a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.checkbox_group a:hover {
+  text-decoration: underline;
+}
+
+/* Button for agreeing and joining */
+.actions button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4a90e2; /* Blue background */
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.actions button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.actions button:hover:not(:disabled) {
+  background-color: #3a78c2;
+}
+
+/* Extra text at the bottom */
+.signup_container p:last-child {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.signup_container p:last-child a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.signup_container p:last-child a:hover {
+  text-decoration: underline;
+}
+
+.toggle__Password {
+  position: absolute;
+  right: 10px;
+  top: 55%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}

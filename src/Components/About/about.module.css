@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutsection {
+  padding: 0px;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.aboutsection h2 {
+  color: orange;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+.aboutsection h1 {
+  color: #4b0082; /* Indigo color for the heading */
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.aboutsection p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: darkorange;
+}

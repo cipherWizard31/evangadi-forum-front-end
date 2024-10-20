@@ -1,0 +1,148 @@
+.qwrapper {
+  margin: 7% auto;
+  width: 70%;
+}
+.title,
+.qwrapper h2,
+title1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.qwrapper select {
+  margin-left: 1%;
+}
+
+.qwrapper button {
+  background-color: #007bff;
+  margin-top: 3%;
+  padding: 8px 50px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.qwrapper button:hover {
+  background-color: #6f9ce5;
+}
+.qwrapper input[type="text"],
+.qwrapper textarea {
+  font-style: italic;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  color: #999;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.qwrapper input[type="text"] {
+  height: 35px;
+  max-width: 100%;
+  border-radius: 6px;
+  padding: 1%;
+}
+.qwrapper textarea {
+  max-width: 100% !important;
+  width: 99%;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  padding: 10px 0 0 7px;
+}
+.textarea:focus,
+.qwrapper input[type="text"]:focus {
+  border-color: #ff8500;
+  box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+}
+
+.qwrapper form {
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+}
+.qwrapper form div {
+  width: 95%;
+  margin: 0 auto;
+}
+.firstContainer {
+  width: 55%;
+  margin: 0 auto;
+}
+.qwrapper a {
+  text-decoration: none;
+  color: #4285f4;
+}
+.goToQuestion {
+  margin: 2%;
+  text-align: center;
+  font-size: 15px;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+.summary div {
+  margin: 5% 7%;
+  font-size: 15px;
+}
+
+.title1 {
+  display: none;
+}
+@media (max-width: 768px) {
+  .firstContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .qwrapper {
+    margin: 15% auto;
+    width: 90%;
+  }
+  .summary div {
+    margin: 5% 0 5% 5%;
+    font-size: 15px;
+  }
+  .qline {
+    width: 32%;
+    height: 2px;
+    background-color: orange;
+    margin-left: 12px;
+    text-align: center;
+  }
+  .qwrapper h2 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .title,
+  .title1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .goToQuestion {
+    display: none;
+  }
+  .title1 {
+    display: block;
+  }
+  .title {
+    display: none;
+  }
+  .qwrapper button {
+    margin-top: 5%;
+    padding: 8px 15px;
+    border-radius: 8px;
+  }
+  .mainTitle h2 {
+    margin-bottom: 1%;
+  }
+}
+@media ((min-width: 768px) and (max-width: 968px)) {
+  .firstContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .qwrapper {
+    /* margin: 15% auto; */
+    width: 60%;
+  }
+}
+
+
